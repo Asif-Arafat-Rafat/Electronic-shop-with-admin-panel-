@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+.inputform{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    width: 500px;
+}
+.login input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+

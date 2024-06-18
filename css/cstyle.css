@@ -1,0 +1,51 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Light text color */
+    font-family: 'Times New Roman', Times, serif; /* Vintage font */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #333; /* Dark gray border */
+    text-align: left;
+}
+
+th {
+    background-color: #000; /* Black header background */
+    color: #fff; /* Light text color */
+    text-transform: uppercase;
+}
+
+/* Product image styles */
+.product-image {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Total styles */
+.total {
+    background-color: #000; /* Black total background */
+    padding: 10px;
+    text-align: right;
+}
+
+.total p {
+    font-size: 20px;
+    font-weight: bold;
+}

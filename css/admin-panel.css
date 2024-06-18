@@ -1,0 +1,186 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+}
+
+a {
+    color: #ff6600; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Admin panel layout */
+.page {
+    display: flex;
+}
+
+.leftbar {
+    flex: 0 0 250px;
+    background-color: #262626; /* Darker sidebar color */
+    padding: 20px;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Admin panel section styles */
+.section {
+    margin-bottom: 20px;
+    background-color: #333333; /* Darker section background color */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.section h3 {
+    margin-top: 0;
+    color: #ff6600; /* Section title color */
+}
+
+.section.white-text {
+    background-color: #2c2c2c; /* Slightly lighter section background color */
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+    color: #fff; /* Table text color */
+}
+
+table th {
+    text-align: left;
+}
+
+/* Form styles */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333333; /* Darker form background color */
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff; /* Label text color */
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    border-radius: 3px;
+    background-color: #2c2c2c; /* Darker input background color */
+    color: #fff; /* Input text color */
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ff6600; /* Button background color */
+    color: #fff; /* Button text color */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff4d00; /* Darker button color on hover */
+}
+
+/* Admin navbar styles */
+.admin-navbar {
+    background-color: #262626; /* Darker navbar background color */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin-navbar .adminlogo {
+    display: flex;
+    align-items: center;
+}
+
+.admin-navbar .adminlogo .adlogo {
+    margin: 0;
+    font-size: 24px;
+    color: #ff6600; /* Logo text color */
+}
+
+.adminmenu a {
+    color: #fff; /* Menu item color */
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.adminmenu a:hover {
+    text-decoration: underline;
+}
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}

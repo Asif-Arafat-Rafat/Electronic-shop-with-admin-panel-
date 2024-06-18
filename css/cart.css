@@ -1,0 +1,24 @@
+.cartlayout{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-areas: 
+        'hdr itm'
+        'itm tot'
+        'itm tot'
+        'itm tot';
+}
+.itm{
+    grid-area: itm;
+    background-color: green;
+}
+.hdr{
+    grid-area: hdr;
+    background-color: red;
+}
+.tot{
+    grid-area: itm;
+    background-color: blue;
+}

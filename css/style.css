@@ -1,0 +1,80 @@
+.form-pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    font-size: 20px;
+    right: -500px; /* Initially hides the form outside the viewport */
+    width: 400px;
+    height: 100%;
+    background: linear-gradient(90deg,rgb(83, 81, 81),black);
+    z-index: 999;
+    transition: all 0.3s ease; /* Smooth transition for sliding effect */
+    padding: 20px;
+    border-color: aliceblue;
+}
+
+.register-form{
+    display: none;
+}
+.login-form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.login-form button:hover{
+    filter: invert(1);
+    background-color: black;
+    border:2px solid white;
+}
+.registerform{
+    display: none;
+}
+.login-form button{
+    width: 100px;
+    height: 50px;
+    color: white;
+    border:5px solid white;
+    border-radius: 10px;
+    border-width: 5px;
+    background-color: transparent;
+}
+.login-form .login2,.register-form .register2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    input{
+    font-size: 20px;
+    width: 300px;
+    height: 30px;
+    border-radius: 13px;
+    text-align: center;
+    outline: hidden;
+    margin-bottom: 10px;
+}
+}
+
+.form-btn button{
+    color: aliceblue;
+    width:90px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.form-btn button:hover{
+    filter: invert(1);
+    background-color: black;
+    transition-duration: 0.2s;
+}
+.reg-btn{
+    opacity: 50%;
+}
+.log-btn{
+    opacity: 100%;
+}
